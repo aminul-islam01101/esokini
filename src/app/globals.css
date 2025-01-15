@@ -13,6 +13,29 @@
     --foreground: #ededed;
   }
 }
+@layer utilities {
+  .container {
+    @apply max-w-[1400px] px-4 mx-auto;
+  }
+  .headings {
+    @apply text-2xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold uppercase;
+  }
+  .sub-heading {
+    @apply text-base md:text-xl lg:text-4xl font-semibold uppercase text-[#D3D3D3];
+  }
+  .primary-text {
+    @apply text-sm md:text-base font-bold text-[#D3D3D3];
+  }
+  .primary_color {
+    @apply text-[#FFFFFF];
+  }
+  .secondary_color {
+    @apply text-[#DD4242];
+  }
+  .sub_color {
+    @apply text-[#6C6C6C];
+  }
+}
 
 body {
   color: var(--foreground);
