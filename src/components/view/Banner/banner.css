@@ -4,6 +4,7 @@
   height: 100vh;
   overflow-x: hidden;
   width: 98vw;
+  --swiper-navigation-size: 30px;
 }
 
 .swiper-slide {
