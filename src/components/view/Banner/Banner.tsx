@@ -24,7 +24,7 @@ const Banner = () => {
         navigation={true}
         effect={"creative"}
         creativeEffect={{
-         prev: {
+          prev: {
             shadow: true,
             translate: [0, 0, -1000],
           },
@@ -37,18 +37,21 @@ const Banner = () => {
       >
         {bannerPromotions.map((promotion) => (
           <SwiperSlide key={promotion.id}>
-            <div className="bgWrap container bg-black">
+            <div className="bgWrap bg-white">
               <Image
                 alt="bg"
                 src={promotion.image}
                 placeholder="blur"
                 blurDataURL={promotion.image}
                 quality={100}
+                style={{
+                  objectFit: "cover",
+                }}
                 fill
                 sizes="100vw"
               />
             </div>
-            <div className="flex flex-col h-full w-full bg-black/60 pt-[5%]">
+            {/* <div className="flex flex-col h-full w-full bg-black/60 pt-[5%]">
               <motion.div
                 initial={{ y: -400 }}
                 animate={{ y: 0 }}
@@ -74,7 +77,7 @@ const Banner = () => {
                   </PrimaryButton>
                 </Link>
               </motion.div>
-            </div>
+            </div> */}
           </SwiperSlide>
         ))}
       </Swiper>

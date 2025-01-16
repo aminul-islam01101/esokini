@@ -2,9 +2,9 @@
 interface BannerPromotion {
   id: number;
   image: string; // Banner image URL or path
-  heading: string; // Promotional heading
-  subheading: string; // Promotional subheading or description
-  action: {
+  heading?: string; // Promotional heading
+  subheading?: string; // Promotional subheading or description
+  action?: {
     label: string; // Button text
     link: string; // URL to the product category or promotion page
   };
@@ -14,7 +14,7 @@ interface BannerPromotion {
 const bannerPromotions: BannerPromotion[] = [
   {
     id: 1,
-    image: "/assets/laptops-banner.jpg",
+    image: "/assets/comingSoon.jpeg",
     heading: "Shop Laptops",
     subheading: "Explore our range of high-performance laptops.",
     action: {
@@ -24,7 +24,7 @@ const bannerPromotions: BannerPromotion[] = [
   },
   {
     id: 2,
-    image: "/assets/smartphones-banner.jpg",
+    image: "/assets/comingSoon.jpeg",
     heading: "Smartphones Sale",
     subheading: "Get the latest smartphones at discounted prices.",
     action: {
@@ -34,7 +34,7 @@ const bannerPromotions: BannerPromotion[] = [
   },
   {
     id: 3,
-    image: "/assets/accessories-banner.jpg",
+    image: "/assets/comingSoon.jpeg",
     heading: "Accessories Collection",
     subheading: "Complete your tech setup with premium accessories.",
     action: {
@@ -44,7 +44,7 @@ const bannerPromotions: BannerPromotion[] = [
   },
   {
     id: 4,
-    image: "/assets/sale-banner.jpg",
+    image: "/assets/comingSoon.jpeg",
     heading: "Mega Sale",
     subheading: "Limited-time offers on select products.",
     action: {
