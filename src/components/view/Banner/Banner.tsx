@@ -6,12 +6,8 @@ import "swiper/css/navigation";
 import { EffectCreative, Autoplay, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import './banner.css'
-import Link from "next/link";
+import "./banner.css";
 import bannerPromotions from "@/data/MyProducts";
-import PrimaryButton from "@/components/buttons/PrimaryButton";
-
-
 
 const Banner = () => {
   return (
