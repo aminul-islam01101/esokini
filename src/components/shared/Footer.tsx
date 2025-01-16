@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logo from "../../../public/assets/Logo-Mockup-(Black).jpg";
+import logo from "../../../public/assets/Logo-Mockup-(Black).png";
 import {
   FaFacebookF,
   FaTwitter,
@@ -17,6 +17,7 @@ const Footer = () => {
             <Link href="/">
               <Image src={logo} width={110} height={100} alt="logo" />
             </Link>
+            <span className="text-black">we are coming soon..</span>
           </div>
 
           {/* Center Column - Navigation Links */}

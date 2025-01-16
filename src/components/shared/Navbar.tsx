@@ -1,7 +1,7 @@
 import Link from "next/link";
 import NavLink from "../buttons/NavLink";
 import Image from "next/image";
-import logo from "../../../public/assets/Logo-Mockup-(Black).jpg";
+import logo from "../../../public/assets/Logo-Mockup-(Black).png";
 
 const Navbar = () => {
   return (
@@ -12,6 +12,7 @@ const Navbar = () => {
             <Link href="/">
               <Image src={logo} width={110} height={100} alt="logo" />
             </Link>
+           
           </div>
           <div className="hidden lg:flex space-x-4">
             <Link href="/shop" className="text-black font-extrabold uppercase hover:transition-colors hover:text-blue-500">
