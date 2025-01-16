@@ -57,7 +57,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/esokinib"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,14 +71,14 @@ const Footer = () => {
                 <FaTwitter className="text-black hover:text-blue-500 text-xl" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/esokinibd"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram className="text-black hover:text-blue-500 text-xl" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/esokini"
                 target="_blank"
                 rel="noopener noreferrer"
               >
